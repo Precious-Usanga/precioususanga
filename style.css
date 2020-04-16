@@ -1,0 +1,115 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    color: #000;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+}
+.section-one {
+    height: 100vh;
+    /* .ssecbackground-color: rgb(54, 171, 187); */
+}
+.section-bg {
+    background-image: url('./assets/bg-5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 65vh;
+}
+section > div.container, .container {
+    padding: 10px;
+    margin: 0px 120px;
+}
+.landing-page {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header.header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    padding: 5px;
+    background-color: transparent;
+}
+.logo > div.logo-img > img {
+     border-radius: 50%;
+}
+.logo > div.logo-text {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 7px;
+}
+
+.image-border {
+    border-radius: 15px;
+    border: 0px solid none;
+}
+.card {
+    width: 75%;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 58% auto;
+    column-gap: 1.5em;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 10px rgba(124, 123, 123, 0.1);
+}
+.card-bg {
+    background: url('./assets/bg-3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-img {
+    padding: 1rem;
+    background: transparent;
+}
+.card-body {
+    padding: 1rem;
+    background: transparent;
+}
+p.profile-name {
+    font-size: 30px;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.bold {
+    font-weight: 700;
+}
+p.profile-text {
+    text-align: justify;
+}
+p.profile-text > span {
+    font-weight: 700;
+}
+div.category {
+    display: grid;
+    grid-template-columns: 20% auto;
+    column-gap: 1.5em;
+    padding: .3rem 0px;
+}
+span.label {
+    background-color: rgb(231, 219, 219);
+    border-radius: 13px;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.65rem;
+}
+.card-sub-title{
+    font-size: 1rem;
+}
+a.links {
+    text-decoration: none;
+    color: #000;
+}
+.font-white {
+    color: #fff;
+}
+.line-height {
+    line-height: 0.5;
+}
+.font-medium {
+    font-size: .9rem;
+}
